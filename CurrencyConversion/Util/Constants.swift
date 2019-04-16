@@ -12,11 +12,10 @@ import Foundation
 struct EnviromentalVariable {
     #if DEBUG
      //test
-    //static let access_token = "635de2760363fbadb5e4c4156406175f"
-    static let access_token = "393d7e91eea017841fc9bf9fe784e94f"
+        static let access_token = "635de2760363fbadb5e4c4156406175f"
     #else
      //production
-    static let access_token = "393d7e91eea017841fc9bf9fe784e94f"
+        static let access_token = "635de2760363fbadb5e4c4156406175f"
     #endif
 }
 
@@ -24,7 +23,7 @@ struct Constant {
     
     struct URL {
         #if DEBUG
-        //test
+        //teststatic
         static let baseURL = "http://apilayer.net/api/"
         
         #else
